@@ -1,0 +1,24 @@
+
+This is an example PerlPoint style, intended to be used with a PerlPoint Generator.
+
+See the doc directory for details about the style.
+
+This example shows the basic style subdirectories:
+
+* cfg - for option files,
+
+* templates - for template files,
+
+* doc - for documentation (usually overview.pp and description.pp),
+
+* lib - for own generator, formatter or template modules,
+
+* images - for screenshots and the like.
+
+This style is part of the PerlPoint::styles distribution and
+can be used under the license terms to be read in the README
+file attached.
+
+The CSS parts of the templates are derived from style sheets
+designed by Jürgen Christoffel. Used with permission.
+

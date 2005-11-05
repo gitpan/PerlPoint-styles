@@ -1,0 +1,148 @@
+/* main style sheet; redefines basic.css for CSS compliant browsers */
+
+/* Last change: 2005-05-15 (JSTENZEL) */
+
+/* colors:
+  white: #fff;  black: #000;  red: #f00;
+  steelblue: #4682B4
+  lightsteelblue: #B0C4DE
+  lightyellow: #FFFFE0
+
+  #00FFFF Aqua
+  #6495ED CornFlowerBLue
+ */
+
+
+html {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	}
+body {
+    font-family: 'Lucida Grande', Verdana, Geneva, Lucida, Helvetica, Arial, sans-serif;
+        margin: 0;
+	padding: 0;
+	color: #333;
+	height: 100%;
+	}
+
+#cd {	display: table; width: 100%; }
+#row {	display: table-row; }
+
+#nav {	display: table-cell;
+	float: none; width: 148px;
+	font-size: smaller;
+	border-right: 2px dotted blue;
+	background-color: #ffffe0;
+	margin-left: 0;
+	padding: 2px;
+	vertical-align: top;
+	}
+	
+#content {
+	display: table-cell;
+	background-color: white;
+	padding: 10px;
+	margin-left: 0;
+	vertical-align: top;
+	}
+
+#header {
+	background-color: #FFFF99;
+	margin-bottom: 1em; padding: 0.25em;
+	}
+
+#header h1 {
+	text-align: center;
+	}
+
+#header hr {
+	clear: both;
+	width: 80%;
+	background-color: #ccc;
+	}
+
+#content .crumb {
+	clear: both;
+	display: none; height: 0;
+	background-color: white; color: #B0C4DE;
+	/* color: #aaa; background-color: white; */
+	font-size: 66%;
+	font-weight: bold;
+	padding: 2px 1em;
+	}
+
+#content .crumb a {
+	color: #B0C4DE;
+	/* color: #aaa; */
+	}
+	
+.sidebar {
+	font-size: smaller;
+	float: right;
+	/* background: #FFFACD; / * lemonchiffon */ 
+	background-color: #f9f9fa;
+	border: 1px dashed #ccc;
+	width: 124px;
+	margin: 0 0 0 1em;	/* need all values to override basic.css */
+	padding: 2px;
+	}
+
+.sidebar > h3 {
+	 margin: 0; padding: 2px 0;
+	 font-size: smaller;
+	}
+
+.spacer {
+	clear: both;
+	}
+
+#content h2#first {
+	color: black;
+	border: none;
+	margin-top: -6px;
+	}
+
+h2 	{
+	/* background-color: #eee; */
+	/* border: 1px solid #ccc; */
+	padding: 2px 0;
+	width: 66%;
+	}	
+p {
+	padding: 0;
+	margin-top: 0px;
+	}
+
+dd, dt {
+	font-size: 0.95em;
+	}
+
+/* examples */
+pre {
+	background: #e5e5e5;
+	text-align: left;
+        width: 80%;
+	padding: 30;
+     }
+
+
+/* bullet images */
+ul li {
+       list-style-image: url(dot01.gif);
+       padding: 0;
+      }
+
+
+/* hints */
+.hints {
+        font-size: x-small;
+        background-color: LightBlue;
+        border: 5px solid LightBlue;
+        margin: 3px;
+        width: 400px;
+        float: right;
+       }
+
+
+/* end stylesheet */

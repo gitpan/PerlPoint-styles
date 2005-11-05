@@ -1,0 +1,89 @@
+/* basic CSS stylesheet */
+
+/* Last change: 2004-06-21 (JC) */
+
+body {
+    font-family: 'Lucida Grande', Verdana, Geneva, Lucida, Helvetica, Arial, sans-serif;
+    background-color: white; color: black; 
+}
+
+.badcss {
+  /* old browser warning */
+  background-color: white; color: red;
+  margin-left: 1em; margin-right: 1em;
+  font-weight: bold;
+}
+
+#cd {	}
+#row {	}
+
+#header {
+	background-color: #FFFF99;
+	margin-bottom: 1em; padding: 0.25em;
+	}
+
+#header h1 {
+	text-align: center;
+	}
+
+#nav {
+  float: left; width: 148px;
+  margin-left: -1px;
+  padding: 5px;
+  border-right: 1px solid blue;
+  color: black; background-color: #ffff99;
+}
+
+#content {
+  margin-left: 158px;
+  padding: 10px;
+}
+
+#footer {
+	clear: both;
+	background-color: #FFFF99;
+	font-size: smaller;
+	margin-top: 1em;
+	padding: 0.25em;
+	/* text-align: right; */
+	}
+
+#footer .pp { float: right }
+#footer .copy { }
+#footer .rights { }
+
+h1, h2, h3, h4 {
+   color: #000;
+   background-color: transparent;
+}
+
+address {
+  float: left; bottom: 2px; width: 100%; 
+  border-top: 2px dotted black; padding: 1em 0 3px 3px; margin: 1em 0 0 0;
+}
+
+blockquote {
+  color: black; background-color: #eee; padding: 1em;
+}
+
+.s1 { margin-left: 0em; margin-top: 1em; }
+.s2 { margin-left: 1em; margin-top: 0.5em; margin-bottom: 0.25em }
+.s3 { margin-left: 2em; margin-top: 0.25em; margin-bottom: 0 }
+.s4 { margin: 0 4em; padding: 0 }
+.s5 { margin: 0 5em; padding: 0 }
+.s6 { margin: 0 6em; padding: 0 }
+.s7 { margin: 0 7em; padding: 0 }
+
+#itoc {	/* the TOC in index.htm */
+}
+
+#itoc .s4 { display: none; height: 0; margin: 0 4em; padding: 0 }
+#itoc .s5 { display: none; height: 0; margin: 0 5em; padding: 0 }
+#itoc .s6 { display: none; height: 0; margin: 0 6em; padding: 0 }
+#itoc .s7 { display: none; height: 0; margin: 0 7em; padding: 0 }
+
+#stoc {	/* the TOC in slide0000.htm */
+}
+#stoc .s2 { margin-left: 1em; margin-top: 0.75em; margin-bottom: 0.25em }
+
+/* end stylesheet */
