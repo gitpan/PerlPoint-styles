@@ -3,6 +3,7 @@ Changelog
 MANIFEST
 Makefile.PL
 README
+META.yml
 
 demo/styles/FramesAndApplet/cfg/FramesAndApplet.cfg
 demo/styles/FramesAndApplet/doc/description.pp
@@ -48,4 +49,26 @@ demo/styles/GPW7-PPGenerator-01/templates/tocbot.tpl
 demo/styles/GPW7-PPGenerator-01/templates/tocheader.tpl
 demo/styles/GPW7-PPGenerator-01/templates/toctop.tpl
 demo/styles/GPW7-PPGenerator-01/templates/top.tpl
-
+demo/styles/S5/cfg/S5.cfg
+demo/styles/S5/doc/description.pp
+demo/styles/S5/doc/overview.pp
+demo/styles/S5/README
+demo/styles/S5/templates/S5.tt2
+demo/styles/pphome/cfg/pphome.cfg
+demo/styles/pphome/doc/description.pp
+demo/styles/pphome/doc/overview.pp
+demo/styles/pphome/README
+demo/styles/pphome/templates/ahem.css
+demo/styles/pphome/templates/basic.css
+demo/styles/pphome/templates/bot.tpl
+demo/styles/pphome/templates/dot01.gif
+demo/styles/pphome/templates/favicon.ico
+demo/styles/pphome/templates/header.tpl
+demo/styles/pphome/templates/Logo1.gif
+demo/styles/pphome/templates/main.css
+demo/styles/pphome/templates/PPL13s5b-o.jpg
+demo/styles/pphome/templates/pstyle.css
+demo/styles/pphome/templates/tocbot.tpl
+demo/styles/pphome/templates/tocheader.tpl
+demo/styles/pphome/templates/toctop.tpl
+demo/styles/pphome/templates/top.tpl

@@ -1,0 +1,13 @@
+
+This is an example PerlPoint style, part of PerlPoint::Package.
+It demonstrates an CSS layout.
+
+The layout shown is derived from a real world layout, basically
+designed by Jürgen Christoffel for the CDs of the German Perl
+Workshop and used with permission.
+
+
+=License
+
+This style can be used under the same terms as PerlPoint::Package
+itself. Derived layouts should document their heritage.

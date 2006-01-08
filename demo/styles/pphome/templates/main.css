@@ -149,12 +149,27 @@ ul li {
 /* index relations */
 .related {
           font-size:        xx-small;
-          background-color: LightBlue;
-          border: 5px solid LightBlue;
+          background-color: lightyellow;
+          border: 5px solid lightyellow;
           margin: 3px;
           /* width:  400px; */
           float:  right;
          }
+
+/* tables */
+#content table {
+                border: 1px solid black;
+                border-collapse: collapse;
+               }
+
+#content th {
+             border: 1px solid black;
+            }
+
+#content td {
+             border: 1px solid black;
+            }
+
 
 
 /* end stylesheet */

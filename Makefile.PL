@@ -11,7 +11,7 @@ use ExtUtils::MakeMaker;
 # the package requires modern perl
 require 5.00503;
 
-my $version='0.01';
+my $version='0.02';
 
 # write makefile
 $ok=WriteMakefile(
@@ -20,6 +20,7 @@ $ok=WriteMakefile(
                   VERSION      => $version,
                   PREREQ_PM    => {
                                    PerlPoint::Template::Traditional => 0.01,
+                                   PerlPoint::Template::TT2         => 0.01,
                                    Test::Harness                    => 1.25,
                                    Test::More                       => 0.11,
                                   },
@@ -27,7 +28,6 @@ $ok=WriteMakefile(
                                    COMPRESS                         => 'gzip -9',
                                    SUFFIX                           => 'tgz',
                                   },
-                  EXE_FILES    => ['demo/pp2sdf', 'demo/pp2tdo'],
                  );
 
 # provide additional informations
@@ -35,10 +35,7 @@ warn <<EOM if $ok;
 
 Welcome to the PerlPoint style examples $version!
 
-Please see the README file for further details.
-
-The installation is well prepared now,
-and you might run "make test" and
-"make install".
+The best way to install this package is to copy the styles
+under demo/styles into your PerlPoint styles base directory.
 
 EOM

@@ -5,6 +5,13 @@
 // -- end of "preface"
 
 
+=0.02
+
+* Added S5 demo style, with an introduction in the docs.
+
+* Fixed a few doc errors.
+	
+
 =0.01
 
 First public release.

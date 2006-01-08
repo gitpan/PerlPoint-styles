@@ -13,13 +13,13 @@ applet for navigation in the leftmost frame.
 
 =Requirements
 
-To use this style, you need to have PerlPoint::Template::Traditional installed.
+To use this style, you need to have \C<PerlPoint::Template::Traditional> installed.
 
 
 =Third party code included
 
 The CSS parts of the templates are derived from style sheets designed
-by Jürgen Christoffel. Used with permission.
+by Jrgen Christoffel. Used with permission.
 
 The JavaScript navigation code is copied from Brian Ingersons Kwiki software and used according
 to Kwikis license.
@@ -35,7 +35,7 @@ IN DOUBT, PLEASE USE ANOTHER NAVIGATION APPLET OR JAVASCRIPT.>
 
 =License
 
-The style can be used under the same conditions as PerlPoint::styles itself.
+The style can be used under the same conditions as \C<PerlPoint::styles> itself.
 
 
 

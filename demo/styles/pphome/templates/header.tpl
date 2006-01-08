@@ -1,7 +1,6 @@
 <!-- Header template file -->
 
-<!-- favicon link tag -->
-FAVICON_LINKTAG
+<!-- ZOOMSTOP -->
 
 <!-- CSS link tags -->
 CSS_LINKTAGS
@@ -13,9 +12,11 @@ LINK_NAVIGATION
 DOC_METATAGS
 
 <!-- title -->
-<title align=center>TITLE</title>
+<title>TITLE</title>
 
 <LINK REL="stylesheet" TYPE="text/css" HREF="basic.css">
+
+FAVICON_LINKTAG
 
 <style type="text/css" media="all">
   @import "ahem.css";
@@ -91,6 +92,6 @@ document.onkeypress = handleKey
 
 </script>
 
-
+<!-- ZOOMRESTART -->
 
 

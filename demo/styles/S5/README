@@ -1,0 +1,11 @@
+
+This is an example PerlPoint style, part of PerlPoint::styles.
+It demonstrates a style written with the Template Toolkit
+and can be used to produce S5 presentations from PerlPoint
+sources.
+
+
+=License
+
+This style can be used under the same terms as PerlPoint::styles
+itself. Derived layouts should document their heritage.

@@ -1,6 +1,15 @@
-/* basic CSS stylesheet */
+/* basic CSS stylesheet for Workshop CD; see ahem.css too */
 
 /* Last change: 2004-06-21 (JC) */
+
+/* colors:
+  white: #fff;  black: #000;  red: #f00;
+  steelblue: #4682B4
+  lightsteelblue: #B0C4DE
+
+  #00FFFF Aqua
+  #6495ED CornFlowerBLue
+ */
 
 body {
     font-family: 'Lucida Grande', Verdana, Geneva, Lucida, Helvetica, Arial, sans-serif;
